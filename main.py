@@ -50,7 +50,8 @@ def load_keys():
     )
     return private_key, public_key
 
-
+# The private key creates a digital signature for the message.
+# The matching public key can verify the signature.
 def sign_message(message, private_key):
     """Create an RSA-PSS signature for a message."""
     return private_key.sign(
