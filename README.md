@@ -59,3 +59,8 @@ The private key is saved without password protection for this educational demons
 ## Author
 
 Information Security coursework project.
+## Security Properties
+
+Digital signatures provide authenticity and integrity, helping verify who signed a message and whether it was changed. They do not provide confidentiality: the message itself is not encrypted.
+
+The private key must remain secret. The public key is used to verify signatures.
